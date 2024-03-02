@@ -137,6 +137,34 @@
           phone available
         </p>
       </div>
+      <!-- Modal -->
+      <div
+        id="static-modal"
+        data-modal-backdrop="static"
+        tabindex="-1"
+        aria-hidden="true"
+        class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0"
+      >
+        <div
+          class="relative p-2 md:p-4 w-4/5 md:w-full max-w-xl md:max-w-2xl max-h-full"
+        >
+          <div class="relative bg-white rounded-lg shadow">
+            <!-- Modal body -->
+            <div id="modalBody" class="p-2 md:p-4 lg:p-5 space-y-4"></div>
+            <!-- Modal footer -->
+            <div class="flex justify-end">
+              <button
+                data-modal-hide="static-modal"
+                type="button"
+                class="py-2.5 px-10 m-5 text-sm font-medium text-white focus:outline-none bg-[#DC3545] rounded-lg border border-gray-200"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal End  -->
     </main>
 
     <!-- js -->
